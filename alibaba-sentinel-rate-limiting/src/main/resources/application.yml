@@ -4,7 +4,7 @@ spring:
   cloud:
     sentinel:
       transport:
-        dashboard: localhost:8090
+        dashboard: 192.168.163.129:8080
       datasource:
         ds:
           nacos:
